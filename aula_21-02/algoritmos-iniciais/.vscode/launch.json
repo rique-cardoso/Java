@@ -1,0 +1,91 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ex10",
+            "request": "launch",
+            "mainClass": "lista_exercicio_2102.ex10",
+            "projectName": "algoritmos-iniciais_f1694901"
+        },
+        {
+            "type": "java",
+            "name": "ex08",
+            "request": "launch",
+            "mainClass": "lista_exercicio_2102.ex08",
+            "projectName": "algoritmos-iniciais_f1694901"
+        },
+        {
+            "type": "java",
+            "name": "ex07",
+            "request": "launch",
+            "mainClass": "lista_exercicio_2102.ex07",
+            "projectName": "algoritmos-iniciais_f1694901"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ex01",
+            "request": "launch",
+            "mainClass": "lista_exercicio_2102.ex01",
+            "projectName": "algoritmos-iniciais_f1694901"
+        },
+        {
+            "type": "java",
+            "name": "ex02",
+            "request": "launch",
+            "mainClass": "lista_exercicio_2102.ex02",
+            "projectName": "algoritmos-iniciais_f1694901"
+        },
+        {
+            "type": "java",
+            "name": "ex03",
+            "request": "launch",
+            "mainClass": "lista_exercicio_2102.ex03",
+            "projectName": "algoritmos-iniciais_f1694901"
+        },
+        {
+            "type": "java",
+            "name": "ex04",
+            "request": "launch",
+            "mainClass": "lista_exercicio_2102.ex04",
+            "projectName": "algoritmos-iniciais_f1694901"
+        },
+        {
+            "type": "java",
+            "name": "ex05",
+            "request": "launch",
+            "mainClass": "lista_exercicio_2102.ex05",
+            "projectName": "algoritmos-iniciais_f1694901"
+        },
+        {
+            "type": "java",
+            "name": "ex06",
+            "request": "launch",
+            "mainClass": "lista_exercicio_2102.ex06",
+            "projectName": "algoritmos-iniciais_f1694901"
+        },
+        {
+            "type": "java",
+            "name": "Main01",
+            "request": "launch",
+            "mainClass": "main.Main01",
+            "projectName": "algoritmos-iniciais_f1694901"
+        },
+        {
+            "type": "java",
+            "name": "Main02",
+            "request": "launch",
+            "mainClass": "main.Main02",
+            "projectName": "algoritmos-iniciais_f1694901"
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+Sintaxe ArrayList:
+
+ArrayList<Tipo> nome = new ArrayList<Tipo>();
+
+ArrayList<String> arrayDinamico = new ArrayList<String>();
+
+Adicionar Elemento:
+arrayDinamico.add("Goku"); // indice 0
+arrayDinamico.add("Maria"); // indice 1
+arrayDinamico.add("Pedro"); // indice 2
+arrayDinamico.add("Vegeta");// indice 3;
+arrayDinamico.add("Bob Esponja"); //indice 4;
+// arrayDinamico.add("Nome qualquer"); // indice 5
+
+
+Método size();
+
+arrayDinamico.size(); //retorna um inteiro que reprsenta o tamanho do arrayList
+
+
+Acessar índice de um Array Dinâmico:
+
+arrayDinamico.get(0);
+arrayDinamico.get(1);
+arrayDinamico.size() -1; //pega a última posição.
+
+Remover elementos do ArrayList:
+
+arrayDinamico.remove(indice);
+
+Limpar array: 
+
+arrayDinamico.clear(); //Limpa todo o arrayList
+
+ForEach
+
+for(String nome : arrayDinamico){
+	sout(nome);
+}
+
+===========================================================
+
+
+No ArrayList não pode-se passar tipos primitivos, deve-se passar classes, portanto, como faço para usar tipos primitivos no ArrayList? WrapperClass (uma classe que representa um tipo primitivo)
+
+Tipos Primitivos -> WrapperClass
+int -> Integer
+double -> Double
+float -> Float
+char  -> Character
+
+Criando um ArrayList de TipoPrimitivo utilizando uma WrapperClass:
+
+ArrayList<Integer> valores = new ArrayList<Integer>();
+valores.add(50);
+
+
+===========================================================
+
+Ordenação de ArrayList:
+
+ArrayList<Integer> numeros = new ArrayList<Integer>();
+
+Collections.sort(numeros);
+
+for(Integer numero : numeros){
+	sout(numero);
+}
+
+Ordenação decrescente:
+
+Collections.sort(numeros, Collections.reverOrder());
+
+
+É possível também ordenar com Strings. (Ordena em ordem alfabética)
+
+
+============================================================
+
+Array de tamanho dinâmico que recebe tipos diferentes:
+
+ArrayList<Object> nome = new ArrayList<Object>();
+
+nome.add(14); //int | índice 0
+nome.add(5.5); //double | índice 1
+nome.add("Palavra"); //String | índice 2
+nome.add(true); //boolean | índice 3
