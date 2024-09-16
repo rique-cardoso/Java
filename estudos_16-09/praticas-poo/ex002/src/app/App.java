@@ -1,0 +1,55 @@
+package app;
+import model.*;
+public class App {
+    public static void main(String[] args) throws Exception {
+        ContaBancaria c1 = new ContaBancaria(0001, "Henrique Prates");
+        ContaBancaria c2 = new ContaBancaria(0002, "Ana Luíza Inácio");
+        ContaBancaria c3 = new ContaBancaria(0003, "Lucas Inácio");
+        ContaBancaria c4 = new ContaBancaria(0004, "Maria Lúcia Inácio");
+        ContaBancaria c5 = new ContaBancaria(0005, "Iridan Costa");
+        ContaBancaria c6 = new ContaBancaria(0006, "Franckmar Reis");
+        ContaBancaria c7 = new ContaBancaria(0007, "Izabete Cardoso");
+        System.out.println(c1.depositar(805));
+        System.out.println("====================\n====================");
+        System.out.println(c2.depositar(2500));
+        System.out.println("====================\n====================");
+        System.out.println(c3.depositar(2000));
+        System.out.println("====================\n====================");
+        System.out.println(c4.depositar(5000));
+        System.out.println("====================\n====================");
+        System.out.println(c5.depositar(1400));
+        System.out.println("====================\n====================");
+        System.out.println(c6.depositar(1400));
+        System.out.println("====================\n====================");
+        System.out.println(c7.depositar(1800));
+        System.out.println("====================\n====================");
+        System.out.println(c1.sacar(10000));
+        System.out.println("====================\n====================");
+        System.out.println(c2.sacar(2900));
+        System.out.println("====================\n====================");
+        System.out.println(c3.sacar(7000));
+        System.out.println("====================\n====================");
+        System.out.println(c4.sacar(200));
+        System.out.println("====================\n====================");
+        System.out.println(c5.sacar(700));
+        System.out.println("====================\n====================");
+        System.out.println(c6.sacar(20000));
+        System.out.println("====================\n====================");
+        System.out.println(c7.sacar(1500));
+        System.out.println("====================\n====================");
+        System.out.println(c1.emitirExtrato());
+        System.out.println("====================\n====================");
+        System.out.println(c2.emitirExtrato());
+        System.out.println("====================\n====================");
+        System.out.println(c3.emitirExtrato());
+        System.out.println("====================\n====================");
+        System.out.println(c4.emitirExtrato());
+        System.out.println("====================\n====================");
+        System.out.println(c5.emitirExtrato());
+        System.out.println("====================\n====================");
+        System.out.println(c6.emitirExtrato());
+        System.out.println("====================\n====================");
+        System.out.println(c7.emitirExtrato());
+        System.out.println("====================\n====================");
+    }
+}
