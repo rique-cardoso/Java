@@ -12,6 +12,8 @@ public class Ex05 {
             System.out.println("Arquivo criado: " + isCriado);
         }catch(IOException e){
             e.printStackTrace();
+            throw e;
+            //thorw new RuntimeException("Problema na hora de criar arquivo");
         }
         
     }
