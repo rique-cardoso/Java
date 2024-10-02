@@ -1,4 +1,4 @@
-public class Aula01 {
+public class Ex01 {
     public static void main(String[] args) {
         //Checked Exception: se não tratadas, não é possível a compilação do código; um erro é lançado; extende diretamente a classe Exception
         //Unchecked Exception: extende diretamente a classe RuntimeException que por sua vez extende Exception; ocorrem em tempo de execução
