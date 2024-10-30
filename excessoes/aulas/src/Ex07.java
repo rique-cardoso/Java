@@ -1,4 +1,4 @@
-public class Ex07 {
+/* public class Ex07 {
     public static void main(String[] args) {
         try {
             //throw new RuntimeException();
@@ -27,4 +27,4 @@ public class Ex07 {
     private static void talvezLanceExcpetion() throws SQLException, FileNotFoundException{
 
     }
-}
+} */
