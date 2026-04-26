@@ -14,7 +14,7 @@ public class CarrinhoDeCompras {
 
     // Permite mudar a estratégia em tempo de execução
     public void setEstrategiaDePagamento(EstrategiaPagamento estrategia){
-        this.strategiaPagamento = estrategia;
+        this.estrategiaPagamento = estrategia;
     }
     public void finalizarCompra(){
         if(estrategiaPagamento == null){
